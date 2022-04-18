@@ -35,27 +35,39 @@ Importing OBJ via Csharp scripts to Hololens2
 		a. 앱 이름 설정 / 씬 저장 (Shift + crtl + S)
 		naming application /  Save scene(naming what you want)
 		
-		1 번은 작성자 이름 설정 2번은 생성할 앱 이름 설정
-		1 is 
+		빨간 글씨 1 번은 작성자 이름 설정 2번은 생성할 앱 이름 설정
+		red letter 1 is publisher name / 2 is application name
 		
 		b. Graphics에서 shader 추가
+		adding shader in Graphics Tab
 		
 		Grapics > Always Included Shaders > size (+1) > Standard (Specular Setup) 찾아서 선택
-	2. 필요한 패키지 호출(Runtime OBJ import Package)
-	Runtime OBJ Importer | 모델링 | Unity Asset Store
-	3. 스크립트 작성
-	4. 유니티 게임 내 실행 확인
-	5. 파일 빌드(새 폴더로 Builds 폴더를 만든 후 체크사항 확인 후 빌드)
-	
-		a. Add Open Scenes
-		b. 모든 기기, ×64 확인 후 빌드
-	6. 파일 내부의 홀로렌즈 권한추가 및 원격 디버깅 설정 또는 USB 연결
-		a. Release / ARM64 로 바꿀것
 		
-		b. XML을 통해 가능 or 기능에서 체크
+	2. 필요한 패키지 호출(Runtime OBJ import Package)
+	Recall package what you need 
+	Runtime OBJ Importer | 모델링 | Unity Asset Store
+	
+	3. 스크립트 작성(Scripting)
+	4. 유니티 게임 내 실행 확인(Verify scripts in Unity Game mode)
+	5. 파일 빌드(새 폴더로 Builds 폴더를 만든 후 체크사항 확인 후 빌드)
+	File build(Creat new folder naming what you want for build folder{I recommend naming Builds})
+	
+		a. 열린 씬 빌드할 때 추가(Don' forget Add Open Scenes)
+		b. 모든 기기, ×64 확인 후 빌드 (Checking elements before builds )
+		
+	6. 파일 내부의 홀로렌즈 권한추가 및 원격 디버깅 설정 또는 USB 연결
+	Setting for debug .sln file to hololens2 
+	add access permission , remote debug , usb conneting
+	
+		a. Release / ARM64 로 바꿀것(change build process to Release / ARM64)
+		
+		b. XML을 통해 가능 or 기능에서 체크(내 그림 접근 권한 부여 방법)
+		(xml을 통해 파일을 열어 <uap:Capability Name="picturesLibrary"/>를 추가 OR 기능에서 그림 라이브러리 체크)
+		These are ways to permit access to my Picture Library
+		(through XML or Cheking Picture Library)
 		
 		c. 원격 연결의 경우 디버깅 속성 창에서 기기의 IP주소 할당 해주기
-		
+		In case of remoting connect assigning IP address finding from hololens 2 device
 		
 
 
@@ -95,7 +107,7 @@ For more Details
 
 		Grapics > Always Included Shaders > size (+1) > Standard (Specular Setup) 찾아서 선택
 	2. 필요한 패키지 호출(Runtime OBJ import Package)
-Runtime OBJ Importer | 모델링 | Unity Asset Store![image](https://user-images.githubusercontent.com/87642504/163776222-5dbd8606-5c8f-47d9-aa7b-17f183296da0.png)
+![image](https://user-images.githubusercontent.com/87642504/163776222-5dbd8606-5c8f-47d9-aa7b-17f183296da0.png)
 
 	3. 스크립트 작성
 	4. 유니티 게임 내 실행 확인
