@@ -6,7 +6,7 @@ Importing OBJ via Csharp scripts to Hololens2
 
 	1. 유니티 프로젝트 제작
 		a. 새 프로젝트 생성(3D, 파일 이름, 파일 위치 지정)
-		![image](https://user-images.githubusercontent.com/87642504/163775912-a866efc3-ae13-4847-9d97-f3c36d5c11b0.png)
+		![image](https://user-images.githubusercontent.com/87642504/163777165-77733ba9-3e58-40d8-af50-e66f29bedf33.png)
 
 		b. 빌드 셋팅(Universal Windows Platform, Hololens, ARM64 선택 후 Switch Platform)
 		![image](https://user-images.githubusercontent.com/87642504/163775923-0d8ca7ec-bbaa-4842-94e9-79f8f0dd03c7.png)
