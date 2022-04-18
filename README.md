@@ -26,10 +26,10 @@ Importing OBJ via Csharp scripts to Hololens2
 		c. Depth 설정 / XR 설정
 		setting Depth 16 bit / XR 
 		
-	a. New scene 생성(Basic) 및 MRTK도구 생성
-	creat new scene (Basic) & add MRTK tool
+		d. New scene 생성(Basic) 및 MRTK도구 생성
+		creat new scene (Basic) & add MRTK tool
 		
-	1. 장면 저장 및 초기 빌드
+	3. 장면 저장 및 초기 빌드
 	Save new scene / initial build
 	
 		a. 앱 이름 설정 / 씬 저장 (Shift + crtl + S)
@@ -43,19 +43,19 @@ Importing OBJ via Csharp scripts to Hololens2
 		
 		Grapics > Always Included Shaders > size (+1) > Standard (Specular Setup) 찾아서 선택
 		
-	2. 필요한 패키지 호출(Runtime OBJ import Package)
+	4. 필요한 패키지 호출(Runtime OBJ import Package)
 	Recall package what you need 
 	Runtime OBJ Importer | 모델링 | Unity Asset Store
 	
-	3. 스크립트 작성(Scripting)
-	4. 유니티 게임 내 실행 확인(Verify scripts in Unity Game mode)
-	5. 파일 빌드(새 폴더로 Builds 폴더를 만든 후 체크사항 확인 후 빌드)
+	5. 스크립트 작성(Scripting)
+	6. 유니티 게임 내 실행 확인(Verify scripts in Unity Game mode)
+	7. 파일 빌드(새 폴더로 Builds 폴더를 만든 후 체크사항 확인 후 빌드)
 	File build(Creat new folder naming what you want for build folder{I recommend naming Builds})
 	
 		a. 열린 씬 빌드할 때 추가(Don' forget Add Open Scenes)
 		b. 모든 기기, ×64 확인 후 빌드 (Checking elements before builds )
 		
-	6. 파일 내부의 홀로렌즈 권한추가 및 원격 디버깅 설정 또는 USB 연결
+	8. 파일 내부의 홀로렌즈 권한추가 및 원격 디버깅 설정 또는 USB 연결
 	Setting for debug .sln file to hololens2 
 	add access permission , remote debug , usb conneting
 	
@@ -106,7 +106,7 @@ For more Details
 		creat new scene (Basic) & add MRTK tool
 ![image](https://user-images.githubusercontent.com/87642504/163776135-a02e0861-5ee7-4024-b1e7-91874c0b8c20.png)
 
-	1. 장면 저장 및 초기 빌드
+	3. 장면 저장 및 초기 빌드
 		a. 앱 이름 설정 / 씬 저장 (Shift + crtl + S)
 		naming application /  Save scene(naming what you want)
 ![image](https://user-images.githubusercontent.com/87642504/163776168-5d04bc40-34af-4eef-b9ad-c5fb5880723b.png)
@@ -119,22 +119,22 @@ For more Details
 
 		Grapics > Always Included Shaders > size (+1) > Standard (Specular Setup) 찾아서 선택
 		
-	2. 필요한 패키지 호출(Runtime OBJ import Package)
+	4. 필요한 패키지 호출(Runtime OBJ import Package)
 	Recall package what you need to use
 ![image](https://user-images.githubusercontent.com/87642504/163776222-5dbd8606-5c8f-47d9-aa7b-17f183296da0.png)
 
-	3. 스크립트 작성(Scripting)
+	5. 스크립트 작성(Scripting)
 	
-	4. 유니티 게임 내 실행 확인(Verify scripts in Unity Game mode)
+	6. 유니티 게임 내 실행 확인(Verify scripts in Unity Game mode)
 	
-	5. 파일 빌드(새 폴더로 Builds 폴더를 만든 후 체크사항 확인 후 빌드)
+	7. 파일 빌드(새 폴더로 Builds 폴더를 만든 후 체크사항 확인 후 빌드)
 	File build(Creat new folder naming what you want for build folder{I recommend naming Builds})	
 ![image](https://user-images.githubusercontent.com/87642504/163776255-e3e25aad-8ef1-46b1-9b69-8bea8f53a47c.png)
 
 		a. 열린 씬 빌드할 때 추가(Don' forget Add Open Scenes)
 		b. 모든 기기, ×64 확인 후 빌드 (Checking elements before builds )
 		
-	6. 파일 내부의 홀로렌즈 권한추가 및 원격 디버깅 설정 또는 USB 연결
+	8. 파일 내부의 홀로렌즈 권한추가 및 원격 디버깅 설정 또는 USB 연결
 	Setting for debug .sln file to hololens2 
 	add access permission , remote debug , usb conneting
 
