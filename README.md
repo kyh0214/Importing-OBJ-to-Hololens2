@@ -6,6 +6,52 @@ Importing OBJ via Csharp scripts to Hololens2
 
 	1. 유니티 프로젝트 제작
 		a. 새 프로젝트 생성(3D, 파일 이름, 파일 위치 지정)
+		
+		b. 빌드 셋팅(Universal Windows Platform, Hololens, ARM64 선택 후 Switch Platform)
+		
+		Shift + crtl + B 로 열수 있음
+		c. Founation 2.7.0 / XR 0.9.5 추가 버전 확인
+		
+	2. MRTK Toolkit 삽입
+		a. Exe 파일을 통해 MRTK툴킷 적용 (MRTK Founation / XR 체크 확인)
+		
+		
+		b. Plug-In 설정 recommended 된 플러그인 선택
+		
+		c. Depth 설정 / XR 설정
+		
+	a. New scene 생성(Basic) 및 MRTK도구 생성
+		a. 
+	1. 장면 저장 및 초기 빌드
+		a. 앱 이름 설정 / 씬 저장 (Shift + crtl + S)
+		
+		1 번은 작성자 이름 설정 2번은 생성할 앱 이름 설정
+		b. Graphics에서 shader 추가
+		
+		Grapics > Always Included Shaders > size (+1) > Standard (Specular Setup) 찾아서 선택
+	2. 필요한 패키지 호출(Runtime OBJ import Package)
+	Runtime OBJ Importer | 모델링 | Unity Asset Store
+	3. 스크립트 작성
+	4. 유니티 게임 내 실행 확인
+	5. 파일 빌드(새 폴더로 Builds 폴더를 만든 후 체크사항 확인 후 빌드)
+	
+		a. Add Open Scenes
+		b. 모든 기기, ×64 확인 후 빌드
+	6. 파일 내부의 홀로렌즈 권한추가 및 원격 디버깅 설정 또는 USB 연결
+		a. Release / ARM64 로 바꿀것
+		
+		b. XML을 통해 가능 or 기능에서 체크
+		
+		c. 원격 연결의 경우 디버깅 속성 창에서 기기의 IP주소 할당 해주기
+		
+		
+
+
+
+For more Details
+
+	1. 유니티 프로젝트 제작
+		a. 새 프로젝트 생성(3D, 파일 이름, 파일 위치 지정)
 ![image](https://user-images.githubusercontent.com/87642504/163777165-77733ba9-3e58-40d8-af50-e66f29bedf33.png)
 
 		b. 빌드 셋팅(Universal Windows Platform, Hololens, ARM64 선택 후 Switch Platform)
