@@ -5,27 +5,39 @@ Importing OBJ via Csharp scripts to Hololens2
 
 
 	1. 유니티 프로젝트 제작
+	Production Unity project
+	
 		a. 새 프로젝트 생성(3D, 파일 이름, 파일 위치 지정)
+		Creat New Project(Setting 3D, filename, location)
 		
 		b. 빌드 셋팅(Universal Windows Platform, Hololens, ARM64 선택 후 Switch Platform)
+		Set builds environment(Checking above 3 elememts is important) & Click the Switch Platform
 		
-		Shift + crtl + B 로 열수 있음
-		c. Founation 2.7.0 / XR 0.9.5 추가 버전 확인
+		Shift + crtl + B 로 열수 있음(you can open also by left keys)
+
 		
 	2. MRTK Toolkit 삽입
-		a. Exe 파일을 통해 MRTK툴킷 적용 (MRTK Founation / XR 체크 확인)
-		
+		a. Exe 파일을 통해 MRTK툴킷 적용 (MRTK Founation / XR 체크 확인)		
+		apply MRTK via MixedRealityFeatureTool.exe (Check   MRTK Founation / OpenXR)
 		
 		b. Plug-In 설정 recommended 된 플러그인 선택
-		
+		setting Plug-In that (recommended) thing
+				
 		c. Depth 설정 / XR 설정
+		setting Depth 16 bit / XR 
 		
 	a. New scene 생성(Basic) 및 MRTK도구 생성
-		a. 
+	creat new scene (Basic) & add MRTK tool
+		
 	1. 장면 저장 및 초기 빌드
+	Save new scene / initial build
+	
 		a. 앱 이름 설정 / 씬 저장 (Shift + crtl + S)
+		naming application /  Save scene(naming what you want)
 		
 		1 번은 작성자 이름 설정 2번은 생성할 앱 이름 설정
+		1 is 
+		
 		b. Graphics에서 shader 추가
 		
 		Grapics > Always Included Shaders > size (+1) > Standard (Specular Setup) 찾아서 선택
