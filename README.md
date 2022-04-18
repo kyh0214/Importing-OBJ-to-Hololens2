@@ -16,15 +16,15 @@ Importing OBJ via Csharp scripts to Hololens2
 		
 	2. MRTK Toolkit 삽입
 		a. Exe 파일을 통해 MRTK툴킷 적용 (MRTK Founation / XR 체크 확인)
-	  ![image](https://user-images.githubusercontent.com/87642504/163776016-b5766bb5-ecfa-4a5c-aed5-1d9966405f75.png)
+	  	![image](https://user-images.githubusercontent.com/87642504/163776016-b5766bb5-ecfa-4a5c-aed5-1d9966405f75.png)
 
 		b. Plug-In 설정 recommended 된 플러그인 선택
 		![image](https://user-images.githubusercontent.com/87642504/163776060-4f7e03b7-6b6a-449a-b41a-dd6c25734eb2.png)
 
-	  c. Depth 설정 / XR 설정
+	  	c. Depth 설정 / XR 설정
 		![image](https://user-images.githubusercontent.com/87642504/163776081-808ccfc1-e6a1-4479-8535-9e1e06d84fe7.png)
 
-	  d. New scene 생성(Basic) 및 MRTK도구 생성
+	  	d. New scene 생성(Basic) 및 MRTK도구 생성
 		![image](https://user-images.githubusercontent.com/87642504/163776135-a02e0861-5ee7-4024-b1e7-91874c0b8c20.png)
 
 	1. 장면 저장 및 초기 빌드
@@ -37,12 +37,12 @@ Importing OBJ via Csharp scripts to Hololens2
 
 		Grapics > Always Included Shaders > size (+1) > Standard (Specular Setup) 찾아서 선택
 	2. 필요한 패키지 호출(Runtime OBJ import Package)
-	Runtime OBJ Importer | 모델링 | Unity Asset Store![image](https://user-images.githubusercontent.com/87642504/163776222-5dbd8606-5c8f-47d9-aa7b-17f183296da0.png)
+		Runtime OBJ Importer | 모델링 | Unity Asset Store![image](https://user-images.githubusercontent.com/87642504/163776222-5dbd8606-5c8f-47d9-aa7b-17f183296da0.png)
 
 	3. 스크립트 작성
 	4. 유니티 게임 내 실행 확인
 	5. 파일 빌드(새 폴더로 Builds 폴더를 만든 후 체크사항 확인 후 빌드)
-	  ![image](https://user-images.githubusercontent.com/87642504/163776255-e3e25aad-8ef1-46b1-9b69-8bea8f53a47c.png)
+		  ![image](https://user-images.githubusercontent.com/87642504/163776255-e3e25aad-8ef1-46b1-9b69-8bea8f53a47c.png)
 
 		a. Add Open Scenes
 		b. 모든 기기, ×64 확인 후 빌드
