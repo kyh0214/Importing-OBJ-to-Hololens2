@@ -7,7 +7,8 @@ using System;
 
 
 public class FindPathS : MonoBehaviour
-{
+{   //Application.streamingAssetsPath를 사용
+    //Import OBJ via Application.streamingAssetsPath
     string f_path;
 
     public GameObject p;
@@ -20,9 +21,9 @@ public class FindPathS : MonoBehaviour
 
     void loading(string path)
     {   //Application.streamingAssetsPath; 를 사용 따로 StreamingAssets폴더를 만들어줘야함
-        //Import OBJ via Application.streamingAssetsPath
+        //Import OBJ via Application.streamingAssetsPath. You also have to make named StreamingAssets Folder before using this script.
         var lodedobj = new OBJLoader().Load(path);          //경로에서 파일 로드
-        obj = GameObject.Find("Object3");
+        obj = GameObject.Find("Object3");                   //Load file from path
         posi = obj.GetComponent<Transform>();
         posi.position = new Vector3(-0.2f, 0.1f, 0.5f);  //눈앞에 보이게 transform 조정
         posi.localScale = new Vector3(0.005f, 0.005f, 0.005f);
@@ -32,7 +33,7 @@ public class FindPathS : MonoBehaviour
     void Start()
     {
         Instantiate(c, new Vector3(0f, 0.25f, 1f), Quaternion.identity);
-
+        //generate C prefab when start method is activate
         f_path = Application.streamingAssetsPath;
 
         string file_p;

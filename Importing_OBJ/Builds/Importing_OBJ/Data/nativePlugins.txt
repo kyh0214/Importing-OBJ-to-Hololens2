@@ -1,0 +1,11 @@
+MicStreamSelector.dll
+AudioPluginMicrosoftSpatializer.dll
+Microsoft.MixedReality.MovingPlatform.dll
+RemoteRenderingClient.dll
+CoarseRelocUW.dll
+Microsoft.Holographic.HybridRemoting.dll
+AzureSpatialAnchors.dll
+openxr_loader.dll
+
+
+PlaneFinding.dll

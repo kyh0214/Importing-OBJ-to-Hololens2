@@ -20,9 +20,10 @@ public class FindPathE : MonoBehaviour
 
 
     void loading(string path)
-    {
+    {   //Environment.SpecialFolder를 사용하려면 빌드 이후 권한 설정을 해줘야함
+        //If you want to use Environment.SpecialFolder, you must set access permission
         var lodedobj = new OBJLoader().Load(path);          //경로에서 파일 로드
-        obj = GameObject.Find("Object1");
+        obj = GameObject.Find("Object1");                   //Load file from path
         posi = obj.GetComponent<Transform>();
         posi.position = new Vector3(0f, -0.45f, -0.25f);  //눈앞에 보이게 transform 조정
         posi.localScale = new Vector3(0.001f, 0.001f, 0.001f);
@@ -30,9 +31,9 @@ public class FindPathE : MonoBehaviour
 
 
     void Start()
-    {
+    {   
         Instantiate(c, new Vector3(0f, 0.25f, 1f), Quaternion.identity);
-
+        //generate C prefab when start method is activate
         f_path = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
 
         string file_p;
