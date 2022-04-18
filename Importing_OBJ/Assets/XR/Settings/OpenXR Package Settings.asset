@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: ValveIndexControllerProfile WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Valve Index Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.valveindex
@@ -34,7 +33,6 @@ MonoBehaviour:
   m_Name: MicrosoftMotionControllerProfile Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Microsoft Motion Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.microsoftmotioncontroller
@@ -73,7 +71,6 @@ MonoBehaviour:
   - {fileID: 8408557114351798996}
   m_renderMode: 1
   m_depthSubmissionMode: 0
-  lastPlayVersion: 
 --- !u!114 &-6711830700865404381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,7 +84,6 @@ MonoBehaviour:
   m_Name: RuntimeDebuggerOpenXRFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Runtime Debugger
   version: 1
   featureIdInternal: com.unity.openxr.features.runtimedebugger
@@ -110,7 +106,6 @@ MonoBehaviour:
   m_Name: KHRSimpleControllerProfile Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Khronos Simple Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.khrsimpleprofile
@@ -131,7 +126,6 @@ MonoBehaviour:
   m_Name: MotionControllerFeaturePlugin Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Motion Controller Model
   version: 1.4.0
   featureIdInternal: com.microsoft.openxr.feature.controller
@@ -139,9 +133,6 @@ MonoBehaviour:
   company: Microsoft
   priority: 0
   required: 0
-  <IsSessionRunning>k__BackingField: 0
-  <SessionState>k__BackingField: 0
-  <IsAnchorExtensionSupported>k__BackingField: 0
 --- !u!114 &-4281634628560179637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,7 +146,6 @@ MonoBehaviour:
   m_Name: HTCViveControllerProfile WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: HTC Vive Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.htcvive
@@ -176,7 +166,6 @@ MonoBehaviour:
   m_Name: HPMixedRealityControllerProfile Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: HP Reverb G2 Controller Profile
   version: 1.4.0
   featureIdInternal: com.microsoft.openxr.feature.interaction.hpmixedrealitycontroller
@@ -197,7 +186,6 @@ MonoBehaviour:
   m_Name: OculusTouchControllerProfile Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -218,7 +206,6 @@ MonoBehaviour:
   m_Name: HPMixedRealityControllerProfile WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: HP Reverb G2 Controller Profile
   version: 1.4.0
   featureIdInternal: com.microsoft.openxr.feature.interaction.hpmixedrealitycontroller
@@ -239,7 +226,6 @@ MonoBehaviour:
   m_Name: AppRemotingPlugin WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Holographic Remoting remote app
   version: 1.4.0
   featureIdInternal: com.microsoft.openxr.feature.appremoting
@@ -247,31 +233,6 @@ MonoBehaviour:
   company: Microsoft
   priority: -100
   required: 0
-  <IsSessionRunning>k__BackingField: 0
-  <SessionState>k__BackingField: 0
-  <IsAnchorExtensionSupported>k__BackingField: 0
-  m_remotingConfiguration:
-    RemoteHostName: 
-    RemotePort: 0
-    MaxBitrateKbps: 0
-    VideoCodec: 0
-    EnableAudio: 0
-  m_remotingListenConfiguration:
-    ListenInterface: 
-    HandshakeListenPort: 0
-    TransportListenPort: 0
-    MaxBitrateKbps: 0
-    VideoCodec: 0
-    EnableAudio: 0
-  m_secureConnectionServerConfiguration:
-    SecureListen: 0
-    CertificateStorePath: 
-    SubjectName: 
-    KeyPassphrase: 
-    AuthenticationRealm: 
-    Token: 
-  m_remotingState: 0
-  m_runtimeOverrideAttempted: 0
 --- !u!114 &-2088129510844295819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,7 +246,6 @@ MonoBehaviour:
   m_Name: HandTrackingFeaturePlugin WSA
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Hand Tracking
   version: 1.4.0
   featureIdInternal: com.microsoft.openxr.feature.handtracking
@@ -293,9 +253,6 @@ MonoBehaviour:
   company: Microsoft
   priority: 0
   required: 0
-  <IsSessionRunning>k__BackingField: 0
-  <SessionState>k__BackingField: 0
-  <IsAnchorExtensionSupported>k__BackingField: 0
 --- !u!114 &-905404751054085340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,7 +266,6 @@ MonoBehaviour:
   m_Name: MicrosoftHandInteraction WSA
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Microsoft Hand Interaction Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handtracking
@@ -330,7 +286,6 @@ MonoBehaviour:
   m_Name: MixedRealityFeaturePlugin Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Mixed Reality Features
   version: 1.4.0
   featureIdInternal: com.microsoft.openxr.feature.hololens
@@ -342,11 +297,7 @@ MonoBehaviour:
   company: Microsoft
   priority: 0
   required: 1
-  <IsSessionRunning>k__BackingField: 0
-  <SessionState>k__BackingField: 0
-  <IsAnchorExtensionSupported>k__BackingField: 0
   disableFirstPersonObserver: 0
-  versionInstalledOnLaunch: 1.4.0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,7 +328,6 @@ MonoBehaviour:
   m_Name: ConformanceAutomationFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Conformance Automation
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.conformance
@@ -398,7 +348,6 @@ MonoBehaviour:
   m_Name: KHRSimpleControllerProfile WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Khronos Simple Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.khrsimpleprofile
@@ -419,7 +368,6 @@ MonoBehaviour:
   m_Name: HTCViveControllerProfile Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: HTC Vive Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.htcvive
@@ -440,7 +388,6 @@ MonoBehaviour:
   m_Name: HandTrackingFeaturePlugin Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Hand Tracking
   version: 1.4.0
   featureIdInternal: com.microsoft.openxr.feature.handtracking
@@ -448,9 +395,6 @@ MonoBehaviour:
   company: Microsoft
   priority: 0
   required: 0
-  <IsSessionRunning>k__BackingField: 0
-  <SessionState>k__BackingField: 0
-  <IsAnchorExtensionSupported>k__BackingField: 0
 --- !u!114 &3443465618248154227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,7 +408,6 @@ MonoBehaviour:
   m_Name: EyeGazeInteraction Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Eye Gaze Interaction Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.eyetracking
@@ -485,7 +428,6 @@ MonoBehaviour:
   m_Name: OculusTouchControllerProfile WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -508,7 +450,6 @@ MonoBehaviour:
   features: []
   m_renderMode: 1
   m_depthSubmissionMode: 0
-  lastPlayVersion: 
 --- !u!114 &4625119600959002473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -522,7 +463,6 @@ MonoBehaviour:
   m_Name: MixedRealityFeaturePlugin WSA
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Mixed Reality Features
   version: 1.4.0
   featureIdInternal: com.microsoft.openxr.feature.hololens
@@ -534,11 +474,7 @@ MonoBehaviour:
   company: Microsoft
   priority: 0
   required: 1
-  <IsSessionRunning>k__BackingField: 0
-  <SessionState>k__BackingField: 0
-  <IsAnchorExtensionSupported>k__BackingField: 0
   disableFirstPersonObserver: 0
-  versionInstalledOnLaunch: 1.4.0
 --- !u!114 &5484172147137836198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -552,7 +488,6 @@ MonoBehaviour:
   m_Name: MotionControllerFeaturePlugin WSA
   m_EditorClassIdentifier: 
   m_enabled: 1
-  <failedInitialization>k__BackingField: 0
   nameUi: Motion Controller Model
   version: 1.4.0
   featureIdInternal: com.microsoft.openxr.feature.controller
@@ -560,9 +495,6 @@ MonoBehaviour:
   company: Microsoft
   priority: 0
   required: 0
-  <IsSessionRunning>k__BackingField: 0
-  <SessionState>k__BackingField: 0
-  <IsAnchorExtensionSupported>k__BackingField: 0
 --- !u!114 &5849775055737598496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -576,7 +508,6 @@ MonoBehaviour:
   m_Name: ConformanceAutomationFeature WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Conformance Automation
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.conformance
@@ -597,7 +528,6 @@ MonoBehaviour:
   m_Name: AppRemotingPlugin Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Holographic Remoting remote app
   version: 1.4.0
   featureIdInternal: com.microsoft.openxr.feature.appremoting
@@ -605,31 +535,6 @@ MonoBehaviour:
   company: Microsoft
   priority: -100
   required: 0
-  <IsSessionRunning>k__BackingField: 0
-  <SessionState>k__BackingField: 0
-  <IsAnchorExtensionSupported>k__BackingField: 0
-  m_remotingConfiguration:
-    RemoteHostName: 
-    RemotePort: 0
-    MaxBitrateKbps: 0
-    VideoCodec: 0
-    EnableAudio: 0
-  m_remotingListenConfiguration:
-    ListenInterface: 
-    HandshakeListenPort: 0
-    TransportListenPort: 0
-    MaxBitrateKbps: 0
-    VideoCodec: 0
-    EnableAudio: 0
-  m_secureConnectionServerConfiguration:
-    SecureListen: 0
-    CertificateStorePath: 
-    SubjectName: 
-    KeyPassphrase: 
-    AuthenticationRealm: 
-    Token: 
-  m_remotingState: 0
-  m_runtimeOverrideAttempted: 0
 --- !u!114 &6890662947872871476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -643,7 +548,6 @@ MonoBehaviour:
   m_Name: MockRuntime Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Mock Runtime
   version: 0.0.2
   featureIdInternal: com.unity.openxr.feature.mockruntime
@@ -665,7 +569,6 @@ MonoBehaviour:
   m_Name: MicrosoftMotionControllerProfile WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Microsoft Motion Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.microsoftmotioncontroller
@@ -686,7 +589,6 @@ MonoBehaviour:
   m_Name: EyeGazeInteraction WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Eye Gaze Interaction Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.eyetracking
@@ -707,7 +609,6 @@ MonoBehaviour:
   m_Name: RuntimeDebuggerOpenXRFeature WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Runtime Debugger
   version: 1
   featureIdInternal: com.unity.openxr.features.runtimedebugger
@@ -730,7 +631,6 @@ MonoBehaviour:
   m_Name: ValveIndexControllerProfile Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Valve Index Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.valveindex
@@ -751,7 +651,6 @@ MonoBehaviour:
   m_Name: MicrosoftHandInteraction Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Microsoft Hand Interaction Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handtracking
@@ -788,7 +687,6 @@ MonoBehaviour:
   - {fileID: -9211407996612320162}
   m_renderMode: 1
   m_depthSubmissionMode: 1
-  lastPlayVersion: 
 --- !u!114 &9130262439442654402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -802,7 +700,6 @@ MonoBehaviour:
   m_Name: PlayModeRemotingPlugin Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
-  <failedInitialization>k__BackingField: 0
   nameUi: Holographic Remoting for Play Mode
   version: 1.4.0
   featureIdInternal: com.microsoft.openxr.feature.playmoderemoting
@@ -810,13 +707,8 @@ MonoBehaviour:
   company: Microsoft
   priority: -100
   required: 0
-  <IsSessionRunning>k__BackingField: 0
-  <SessionState>k__BackingField: 0
-  <IsAnchorExtensionSupported>k__BackingField: 0
   m_remoteHostName: 
   m_remoteHostPort: 8265
   m_maxBitrate: 20000
   m_videoCodec: 0
   m_enableAudio: 0
-  m_runtimeOverrideAttempted: 0
-  m_remotingSettings: {fileID: 0}
