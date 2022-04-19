@@ -137,7 +137,7 @@ ___
 		
 ###	4. 필요한 패키지 호출(Runtime OBJ import Package)
 ####	Recall package what you need to use
-![image](https://user-images.githubusercontent.com/87642504/163776222-5dbd8606-5c8f-47d9-aa7b-17f183296da0.png)
+[Runtime OBJ Importer](https://assetstore.unity.com/packages/tools/modeling/runtime-obj-importer-49547?locale=ko-KR)
 ___
 ###	5. 스크립트 작성(Scripting)
 ___	
