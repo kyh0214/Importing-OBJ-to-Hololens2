@@ -54,11 +54,14 @@ This repository is made for someone who is somewhat familiar with Unity & holole
 	Runtime OBJ Importer | 모델링 | Unity Asset Store
 	
 ##	5. 스크립트 작성(Scripting)
-[FilePathE.cs : Using Environmet.SpecialFolder](https://github.com/kyh0214/Importing-OBJ-to-Hololens2/blob/ff3270de8261524cd4a3ec2952d848ca04dfea02/Importing_OBJ/Assets/FindPathE.cs)
+[FilePathE.cs : Using Environmet.SpecialFolder](https://github.com/kyh0214/Importing-OBJ-to-Hololens2/blob/d2123549efda871f4cb1a141b9f43b3c9f13d76c/Importing_OBJ/Assets/FindPathE.cs)
+###### C# 스크립트를 한국어로 설명
 
-[FilePathS.cs : Using Application.streamingAssetsPath](https://github.com/kyh0214/Importing-OBJ-to-Hololens2/blob/ff3270de8261524cd4a3ec2952d848ca04dfea02/Importing_OBJ/Assets/FindPathS.cs)
 
-[SeeDebug.cs : Showing above 2 scripts filepath](https://github.com/kyh0214/Importing-OBJ-to-Hololens2/blob/ff3270de8261524cd4a3ec2952d848ca04dfea02/Importing_OBJ/Assets/SeeDebug.cs)
+[FilePathS.cs : Using Application.streamingAssetsPath](https://github.com/kyh0214/Importing-OBJ-to-Hololens2/blob/d2123549efda871f4cb1a141b9f43b3c9f13d76c/Importing_OBJ/Assets/FindPathS.cs)
+###### explain C# script by English
+
+[SeeDebug.cs : Showing above 2 scripts filepath](https://github.com/kyh0214/Importing-OBJ-to-Hololens2/blob/d2123549efda871f4cb1a141b9f43b3c9f13d76c/Importing_OBJ/Assets/SeeDebug.cs)
 
 
 
@@ -133,7 +136,7 @@ ___
 ####		Grapics > Always Included Shaders > size (+1) > Standard (Specular Setup) 찾아서 선택
 		
 ###	4. 필요한 패키지 호출(Runtime OBJ import Package)
-###	Recall package what you need to use
+####	Recall package what you need to use
 ![image](https://user-images.githubusercontent.com/87642504/163776222-5dbd8606-5c8f-47d9-aa7b-17f183296da0.png)
 ___
 ###	5. 스크립트 작성(Scripting)

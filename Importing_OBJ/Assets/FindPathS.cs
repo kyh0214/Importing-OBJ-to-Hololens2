@@ -25,7 +25,7 @@ public class FindPathS : MonoBehaviour
         var lodedobj = new OBJLoader().Load(path);          //경로에서 파일 로드
         obj = GameObject.Find("Object3");                   //Load file from path
         posi = obj.GetComponent<Transform>();
-        posi.position = new Vector3(-0.2f, 0.1f, 0.5f);  //눈앞에 보이게 transform 조정
+        posi.position = new Vector3(-0.2f, 0.1f, 0.5f);     //Adjust transform to be visible
         posi.localScale = new Vector3(0.005f, 0.005f, 0.005f);
     }
 
@@ -36,19 +36,17 @@ public class FindPathS : MonoBehaviour
         //generate C prefab when start method is activate
         f_path = Application.streamingAssetsPath;
 
-        string file_p;
-        string fp;
-        file_p = Path.Combine(f_path, "Object3.obj");
-        fp = file_p.Replace("\\", "/");
-        Debug.Log(fp);
+        string file_p = Path.Combine(f_path, "Object3.obj");   //file_p : f_path와 connect filepath f_path with "file name.obj"
+        string fp = file_p.Replace("\\", "/");                 //fp     : replace file_p's '\' to '/' 
+        Debug.Log(fp);                                         //debug log fp on Unity console window
 
-        if (File.Exists(fp))
+        if (File.Exists(fp))                                    //If the file exists in path fp and is found 
         {
-            loading(fp);
+            loading(fp);                                        //call loading method with fp
         }
-        else if (!File.Exists(fp))
+        else if (!File.Exists(fp))                              //If the file does not exist in path fp
         {
-            Instantiate(p, new Vector3(-0.1f, 0f, 0.5f), Quaternion.identity);//홀로렌즈에서 파일을 찾지 못하면 큐브를 생성하도록 트릭 설치
+            Instantiate(p, new Vector3(-0.1f, 0f, 0.5f), Quaternion.identity);// genarate prefab
         }
 
     }

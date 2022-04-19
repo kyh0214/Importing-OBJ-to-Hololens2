@@ -12,11 +12,11 @@ public class SeeDebug : MonoBehaviour
         textMesh = gameObject.GetComponent<TextMesh>();
     }
     private void OnEnable() //개체가 사용되도록 설정되고 활성상태가 되면 호출
-    {
+    {                       //when object is activate
         Application.logMessageReceivedThreaded += LogMessage;
     }
-    void OnDisable()         //동작을 사용할 수 없거나 비활성상태가 되면 호출
-    {
+    void OnDisable()        //동작을 사용할 수 없거나 비활성상태가 되면 호출
+    {                       //when object is disable
         Application.logMessageReceivedThreaded -= LogMessage;
     }
 
@@ -25,7 +25,7 @@ public class SeeDebug : MonoBehaviour
         if (textMesh.text.Length > 300)
         {
             textMesh.text += message + "\n";//stackTrace는 근원지가 어떤 함수인지 알려준다
-        }
+        }                                   //showing where is root
         else
         {
             textMesh.text += message + "\n";
@@ -34,6 +34,6 @@ public class SeeDebug : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-                
+        
     }
 }
