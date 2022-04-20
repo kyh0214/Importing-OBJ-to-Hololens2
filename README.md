@@ -1,7 +1,7 @@
 <!--Heading-->
 <!--Line-->
 # Importing-OBJ-to-Hololens2
-*Importing OBJ via Csharp scripts to Hololens2*
+**Importing OBJ via Csharp scripts to Hololens2**
 
 
 This repository is made for someone who is somewhat familiar with Unity & hololens 

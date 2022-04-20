@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using Dummiesman;
 using System.IO;
-using System;
-
+ 
+ 
 
 public class FindPathS : MonoBehaviour
 {   //Application.streamingAssetsPath를 사용
@@ -12,7 +10,6 @@ public class FindPathS : MonoBehaviour
     string f_path;
 
     public GameObject p;
-    //public GameObject p, s, d, e;
     public GameObject c;
     GameObject obj;
 
@@ -22,11 +19,9 @@ public class FindPathS : MonoBehaviour
     void loading(string path)
     {   //Application.streamingAssetsPath; 를 사용 따로 StreamingAssets폴더를 만들어줘야함
         //Import OBJ via Application.streamingAssetsPath. You also have to make named StreamingAssets Folder before using this script.
-        var lodedobj = new OBJLoader().Load(path);          //경로에서 파일 로드
-        obj = GameObject.Find("Object3");                   //Load file from path
-        posi = obj.GetComponent<Transform>();
-        posi.position = new Vector3(-0.2f, 0.1f, 0.5f);     //Adjust transform to be visible
-        posi.localScale = new Vector3(0.005f, 0.005f, 0.005f);
+        var lodedobj = new OBJLoader().Load(path);          //경로에서 파일 로드(Load file from path)      
+        lodedobj.transform.position = new Vector3(-0.2f, 0.1f, 0.5f);     //Adjust transform to be visible
+        lodedobj.transform.localScale = new Vector3(0.005f, 0.005f, 0.005f);
     }
 
 
