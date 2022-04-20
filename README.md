@@ -7,7 +7,13 @@
 This repository is made for someone who is somewhat familiar with Unity & hololens 
 (Recommend you follow this repos after tutorial)
 
-	Importing OBJ from Hololens 2
+	
+####	 개발하면서 어려움을 겪었던 부분
+#####	 I struggled with below 2 problems 
+-	 shader 추가(	3.b.	adding shader in Graphics Tab)
+-	 권한 허용(	8.b.	These are ways to permit access to my Picture Library
+			(through XML or Cheking Picture Library))
+
 	 
 
 ##	1.유니티 프로젝트 제작
